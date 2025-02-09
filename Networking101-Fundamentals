@@ -1,0 +1,48 @@
+Networking for DevOps: A Practical Guide
+Welcome to the Networking & DevOps Fundamentals repository! This project is designed to help you master essential networking concepts, protocols, and tools that are crucial for DevOps engineers. Whether you're a beginner or looking to brush up on your skills, this repository provides hands-on tasks, real-world examples, and practical guides to deepen your understanding.
+1. OSI & TCP/IP Models
+•	OSI Model: Understand the 7 layers of the OSI model and their functions.
+•	TCP/IP Model: Learn about the 4 layers of the TCP/IP model and how they map to the OSI model.
+•	Real-World Examples:
+o	Application Layer: HTTP/HTTPS for web browsing.
+o	Transport Layer: TCP for reliable data transfer, UDP for streaming.
+o	Network Layer: IP for routing packets between devices.
+o	Data Link Layer: Ethernet for local network communication.
+o	Physical Layer: Cables, switches, and hubs for physical connectivity.
+2. Protocols and Ports for DevOps
+•	Common Protocols:
+o	HTTP (Port 80): Web communication.
+o	HTTPS (Port 443): Secure web communication.
+o	FTP (Port 21): File transfer.
+o	SSH (Port 22): Secure remote access.
+o	DNS (Port 53): Domain name resolution.
+•	Relevance to DevOps:
+o	HTTP/HTTPS: Essential for web applications and APIs.
+o	SSH: Critical for remote server management.
+o	DNS: Important for service discovery and load balancing.
+3. AWS EC2 and Security Groups
+•	Step-by-Step Guide:
+1.	Launch an EC2 Instance:
+	Log in to AWS Management Console.
+	Navigate to EC2 and click "Launch Instance."
+	Choose an Amazon Machine Image (AMI) and instance type.
+	Configure instance details and add storage.
+	Configure Security Groups to allow SSH (Port 22) and HTTP (Port 80).
+	Launch the instance and connect using SSH.
+2.	Configure Security Groups:
+	Define inbound and outbound rules to control traffic.
+	Restrict access to specific IP addresses for enhanced security.
+4. Networking Commands Cheat Sheet
+•	Essential Commands:
+o	ping: Check connectivity to a host.
+ping google.com
+o	traceroute / tracert: Trace the route packets take to reach a host.
+traceroute google.com
+o	netstat: Display network connections, routing tables, and interface statistics.
+netstat -tuln
+o	curl: Make HTTP requests from the command line.
+curl -I https://google.com
+o	dig / nslookup: Perform DNS lookups.
+dig google.com
+nslookup google.com
+
